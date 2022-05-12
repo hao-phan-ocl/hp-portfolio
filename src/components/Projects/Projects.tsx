@@ -1,14 +1,22 @@
-import { Container, Stack, Typography } from '@mui/material'
+import { Container, Divider, Stack, Typography } from '@mui/material'
 
 import Countries from './Countries'
 import Elibrary from './Elibrary'
 import NetflixClone from './NetflixClone'
 
-export default function Projects() {
+type RefProps = {
+  projectRef: any
+}
+
+export default function Projects({ projectRef }: RefProps) {
   return (
-    <Container maxWidth="lg">
-      <Typography>PROJECTS</Typography>
-      <Stack gap="100px">
+    <Container ref={projectRef} maxWidth="lg" sx={{ marginTop: '10rem', paddingTop: '10rem' }}>
+      <Typography variant="h4" align="center">
+        PROJECTS
+      </Typography>
+      <Divider orientation="horizontal" flexItem />
+
+      <Stack mt="5rem" gap="100px">
         <Elibrary />
         <Countries />
         <NetflixClone />

@@ -1,7 +1,11 @@
 import { AppBar, Stack } from '@mui/material'
 import Link from '@mui/material/Link'
 
-export default function Nav() {
+type RefProps = {
+  projectRef: any
+}
+
+export default function Nav({ projectRef }: RefProps) {
   const items = ['Home', 'Projects', 'Contact']
 
   function handleOnClick() {
@@ -18,18 +22,33 @@ export default function Nav() {
       }}
     >
       <Stack direction="row" justifyContent="center" gap="30px">
-        {items.map((item, i) => (
-          <Link
-            key={i}
-            variant="h6"
-            color="#DBE8D4"
-            underline="none"
-            sx={{ ':hover': { color: '#73CCA8' } }}
-            onClick={handleOnClick}
-          >
-            {item}
-          </Link>
-        ))}
+        <Link
+          variant="h6"
+          color="primary"
+          underline="none"
+          sx={{ ':hover': { color: '#73CCA8' } }}
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        >
+          Home
+        </Link>
+        <Link
+          variant="h6"
+          color="primary"
+          underline="none"
+          sx={{ ':hover': { color: '#73CCA8' } }}
+          onClick={() => projectRef.current.scrollIntoView({ behavior: 'smooth' })}
+        >
+          Projects
+        </Link>
+        <Link
+          variant="h6"
+          color="primary"
+          underline="none"
+          sx={{ ':hover': { color: '#73CCA8' } }}
+          onClick={() => window.scrollTo({ top: 10000, behavior: 'smooth' })}
+        >
+          Contact
+        </Link>
       </Stack>
     </AppBar>
   )

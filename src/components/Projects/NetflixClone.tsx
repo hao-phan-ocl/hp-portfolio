@@ -15,7 +15,7 @@ export default function NetflixClone() {
     github: 'https://github.com/nguyenhaophan/netflix-react-app',
     desc: [
       'A Netflix Clone that is a fully responsive and enables users to create accounts, search movies, watch trailers, and add entities to their watchlists.',
-      'This is my first react app where I learned about reusable components, sending api request, and Context API as state controller.',
+      'This is my first react app when I learned about reusable components, sending api request, and Context API as state controller.',
     ],
     stacks: ['Axios', 'Firebase', 'Javascript', 'Material-UI', 'React.js', 'SCSS'],
   }

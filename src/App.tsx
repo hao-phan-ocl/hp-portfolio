@@ -1,16 +1,19 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { ThemeProvider } from '@emotion/react'
 
-import Nav from './components/Nav'
-import Home from './components/Home'
+import Home from './pages/Home'
+import theme from './theme/theme'
 import './App.scss'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   )
 }
 

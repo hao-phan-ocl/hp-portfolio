@@ -15,7 +15,16 @@ export default function Countries() {
       'A front-end project that displays a list of countries from an API and enables users to search and query for detailed information of each country.',
       'Users are also able to add favorites, sort by different options, and switch theme color.',
     ],
-    stacks: ['React.js', 'Typescript', 'Redux', 'Redux-thunk', 'Material-UI', 'SCSS'],
+    stacks: [
+      'React.js',
+      'Typescript',
+      'Redux',
+      'Redux-thunk',
+      'Material-UI',
+      'SCSS',
+      'Docker',
+      'Github Actions',
+    ],
   }
 
   const images = [Img1, Img2, Img3]
