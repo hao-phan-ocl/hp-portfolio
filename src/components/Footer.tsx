@@ -9,10 +9,9 @@ export default function Footer() {
         alignItems="center"
         width="100%"
         gap="25px"
-        mt="150px"
+        mt="250px"
         p="50px 0"
         position="relative"
-        // sx={{background: 'radial-gradient(circle )'}}
         overflow="hidden"
       >
         <Link

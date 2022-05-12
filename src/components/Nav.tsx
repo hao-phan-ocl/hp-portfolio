@@ -6,12 +6,6 @@ type RefProps = {
 }
 
 export default function Nav({ projectRef }: RefProps) {
-  const items = ['Home', 'Projects', 'Contact']
-
-  function handleOnClick() {
-    console.log('clicked')
-  }
-
   return (
     <AppBar
       position="fixed"
