@@ -13,12 +13,12 @@ export default function Intro() {
           <Typography component="span" color="rgb(187 43 92)">
             {'MERNstack '}
           </Typography>
-          <Typography component="span">{', '}</Typography>
+          <Typography component="span">{'with '}</Typography>
           <Typography component="span" color="rgb(187, 43, 92)">
             {'Typescript '}
           </Typography>
           <Typography component="span">
-            {'with additional knowledge in DevOps practices such as '}
+            {'in addition to knowledge in DevOps practices such as '}
           </Typography>
           <Typography component="span" color="rgb(187, 43, 92)">
             {'Bash'}
@@ -34,8 +34,8 @@ export default function Intro() {
           <Typography component="span">{'. '}</Typography>
         </Typography>
         <Typography>
-          My coding style is keeping things simple and well functional. I like collaborating with
-          team of supportive people who are dedicated to achieve common goals.
+          My coding style is keeping things simple and well functional. I also like collaborating
+          with team of supportive people who are dedicated to achieve common goals.
         </Typography>
       </Container>
     </Stack>
