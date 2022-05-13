@@ -10,7 +10,7 @@ export default function Nav({ projectRef }: RefProps) {
     <AppBar
       position="fixed"
       sx={{
-        backgroundColor: '#0f2d58',
+        backgroundColor: '#233554',
         boxShadow: '0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%)',
         padding: '15px 0',
       }}
