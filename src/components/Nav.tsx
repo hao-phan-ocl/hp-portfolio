@@ -10,7 +10,7 @@ export default function Nav({ projectRef }: RefProps) {
     <AppBar
       position="fixed"
       sx={{
-        backgroundColor: '#525e65',
+        backgroundColor: '#0f2d58',
         boxShadow: '0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%)',
         padding: '15px 0',
       }}
@@ -20,7 +20,7 @@ export default function Nav({ projectRef }: RefProps) {
           variant="h6"
           color="primary"
           underline="none"
-          sx={{ ':hover': { color: '#73CCA8' } }}
+          sx={{ ':hover': { color: '#64ffda' } }}
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           Home
@@ -29,7 +29,7 @@ export default function Nav({ projectRef }: RefProps) {
           variant="h6"
           color="primary"
           underline="none"
-          sx={{ ':hover': { color: '#73CCA8' } }}
+          sx={{ ':hover': { color: '#64ffda' } }}
           onClick={() => projectRef.current.scrollIntoView({ behavior: 'smooth' })}
         >
           Projects
@@ -38,7 +38,7 @@ export default function Nav({ projectRef }: RefProps) {
           variant="h6"
           color="primary"
           underline="none"
-          sx={{ ':hover': { color: '#73CCA8' } }}
+          sx={{ ':hover': { color: '#64ffda' } }}
           onClick={() => window.scrollTo({ top: 10000, behavior: 'smooth' })}
         >
           Contact

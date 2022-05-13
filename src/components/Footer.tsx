@@ -33,7 +33,7 @@ export default function Footer() {
             <LinkedIn
               sx={{
                 fontSize: '33px',
-                ':hover': { color: '#73CCA8' },
+                ':hover': { color: '#64ffda' },
               }}
             />
           </Link>
@@ -43,7 +43,7 @@ export default function Footer() {
             rel="noreferrer"
             aria-label="Github"
           >
-            <GitHub sx={{ fontSize: '33px', ':hover': { color: '#73CCA8' } }} />
+            <GitHub sx={{ fontSize: '33px', ':hover': { color: '#64ffda' } }} />
           </Link>
         </Stack>
         <Typography color="#525e65" fontSize="15px">
@@ -53,7 +53,7 @@ export default function Footer() {
           sx={{
             margin: '0',
             fontSize: '70px',
-            ':hover': { color: '#73CCA8' },
+            ':hover': { color: '#64ffda' },
             transform: 'rotate(180deg)',
             cursor: 'pointer',
           }}
@@ -62,7 +62,7 @@ export default function Footer() {
         <Box
           sx={{
             display: 'block',
-            backgroundColor: '#2E3445',
+            backgroundColor: '#112240',
             position: 'absolute',
             top: '0',
             zIndex: '-1',

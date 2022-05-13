@@ -21,9 +21,7 @@ export default function Carousel({ images }: CarouselProps) {
     <>
       <Swiper
         pagination
-        navigation
         effect="fade"
-        // autoHeight
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,

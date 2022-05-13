@@ -14,14 +14,14 @@ export default function Intro() {
         position="relative"
         overflow="hidden"
       >
-        <Typography mt="3rem" variant="h2">
+        <Typography mt="3rem" variant="h2" color="primary">
           HAO PHAN
         </Typography>
         <Typography>FULL-STACK WEB DEVELOPER</Typography>
         <Box
           sx={{
             display: 'block',
-            backgroundColor: '#2E3445',
+            backgroundColor: '#112240',
             position: 'absolute',
             bottom: '0',
             zIndex: '-1',

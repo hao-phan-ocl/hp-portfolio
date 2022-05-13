@@ -10,8 +10,8 @@ type RefProps = {
 
 export default function Projects({ projectRef }: RefProps) {
   return (
-    <Container ref={projectRef} maxWidth="lg" sx={{ marginTop: '10rem', paddingTop: '10rem' }}>
-      <Typography variant="h4" align="center">
+    <Container ref={projectRef} maxWidth="lg" sx={{ marginTop: '5rem', paddingTop: '10rem' }}>
+      <Typography variant="h4" align="center" color="primary">
         PROJECTS
       </Typography>
       <Divider orientation="horizontal" flexItem />
