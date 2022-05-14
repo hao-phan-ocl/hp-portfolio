@@ -14,10 +14,10 @@ export default function Intro() {
         position="relative"
         overflow="hidden"
       >
-        <Typography mt="3rem" variant="h2" color="primary">
+        <Typography mt="3rem" variant="h1" color="primary">
           HAO PHAN
         </Typography>
-        <Typography>FULL-STACK WEB DEVELOPER</Typography>
+        <Typography variant="h5">FULL-STACK WEB DEVELOPER</Typography>
         <Box
           sx={{
             display: 'block',
@@ -61,7 +61,7 @@ export default function Intro() {
           </Typography>
           <Typography>
             My coding style is keeping things simple and well functional. I also like collaborating
-            with team of supportive people who are dedicated to achieve common goals.
+            with teams of supportive people who are dedicated to achieve common goals.
           </Typography>
         </Container>
       </Stack>

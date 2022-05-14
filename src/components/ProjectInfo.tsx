@@ -12,9 +12,11 @@ type ProjectProps = {
 
 export default function ProjectInfo({ projectDetail }: ProjectProps) {
   return (
-    <Stack width="50%" textAlign="justify">
-      <Typography color="primary">{projectDetail.title}</Typography>
-      <Stack direction="row" gap="20px">
+    <Stack width="50%" textAlign="justify" gap="10px">
+      <Typography color="primary" variant="h5">
+        {projectDetail.title}
+      </Typography>
+      <Stack direction="row" gap="20px" mb="10px">
         <Link
           underline="hover"
           color="secondary"
