@@ -15,9 +15,16 @@ const theme = createTheme({
     fontWeightRegular: 500,
     fontWeightMedium: 600,
     fontWeightBold: 700,
-    // h5: {
-    //   fontSize: '1.75rem',
-    // },
+    h1: {
+      '@media (max-width:800px)': {
+        fontSize: '4rem',
+      },
+    },
+    h5: {
+      '@media (max-width:800px)': {
+        fontSize: '1.2rem',
+      },
+    },
     h6: {
       fontSize: '1.1rem',
       fontWeight: 500,
