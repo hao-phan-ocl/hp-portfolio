@@ -23,8 +23,8 @@ export default function NetflixClone() {
   const images = [Image1, Image2, Image3, Image4, Image5]
 
   return (
-    <Stack direction="row" gap="3rem">
-      <ProjectInfo projectDetail={project} />
+    <Stack direction={{ md: 'row', xs: 'column' }} gap="3rem">
+      <ProjectInfo projectInfo={project} />
       <Carousel images={images} />
     </Stack>
   )

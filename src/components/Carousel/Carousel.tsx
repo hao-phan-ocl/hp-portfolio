@@ -20,6 +20,7 @@ export default function Carousel({ images }: CarouselProps) {
   return (
     <>
       <Swiper
+        navigation
         pagination
         effect="fade"
         autoplay={{

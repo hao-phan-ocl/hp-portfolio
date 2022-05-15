@@ -1,7 +1,7 @@
 import { Link, Stack, Typography } from '@mui/material'
 
 type ProjectProps = {
-  projectDetail: {
+  projectInfo: {
     title: string
     demo: string
     github: string
@@ -10,17 +10,19 @@ type ProjectProps = {
   }
 }
 
-export default function ProjectInfo({ projectDetail }: ProjectProps) {
+export default function ProjectInfo({ projectInfo }: ProjectProps) {
+  const { title, demo, github, desc, stacks } = projectInfo
+
   return (
-    <Stack width="50%" textAlign="justify" gap="10px">
+    <Stack width={{ md: '50%', xs: '100%' }} textAlign="justify" gap="10px">
       <Typography color="primary" variant="h5">
-        {projectDetail.title}
+        {title}
       </Typography>
       <Stack direction="row" gap="20px" mb="10px">
         <Link
           underline="hover"
           color="secondary"
-          href={projectDetail.demo}
+          href={demo}
           target="_blank"
           rel="noreferrer"
           aria-label="Github"
@@ -30,7 +32,7 @@ export default function ProjectInfo({ projectDetail }: ProjectProps) {
         <Link
           underline="hover"
           color="secondary"
-          href={projectDetail.github}
+          href={github}
           target="_blank"
           rel="noreferrer"
           aria-label="Github"
@@ -38,12 +40,12 @@ export default function ProjectInfo({ projectDetail }: ProjectProps) {
           View Code
         </Link>
       </Stack>
-      {projectDetail.desc.map((elem, i) => (
+      {desc.map((elem, i) => (
         <Typography key={i}>{elem}</Typography>
       ))}
       <Typography paragraph={true}>
         {'Tech stacks: '}
-        {projectDetail.stacks.map((stack, i, arr) =>
+        {stacks.map((stack, i, arr) =>
           i !== arr.length - 1 ? (
             <Typography key={stack} component="span" color="secondary">{`${stack}, `}</Typography>
           ) : (

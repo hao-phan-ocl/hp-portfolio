@@ -34,8 +34,8 @@ export default function Elibrary() {
   const images = [Img1, Img2, Img3, Img4, Img5, Img6]
 
   return (
-    <Stack direction="row" gap="3rem">
-      <ProjectInfo projectDetail={project} />
+    <Stack direction={{ md: 'row', xs: 'column' }} gap="3rem">
+      <ProjectInfo projectInfo={project} />
       <Carousel images={images} />
     </Stack>
   )

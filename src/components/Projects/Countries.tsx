@@ -30,8 +30,8 @@ export default function Countries() {
   const images = [Img1, Img2, Img3]
 
   return (
-    <Stack direction="row" gap="3rem">
-      <ProjectInfo projectDetail={project} />
+    <Stack gap="3rem" direction={{ md: 'row', xs: 'column' }}>
+      <ProjectInfo projectInfo={project} />
       <Carousel images={images} />
     </Stack>
   )

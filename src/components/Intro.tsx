@@ -13,6 +13,7 @@ export default function Intro() {
         alignItems="center"
         position="relative"
         overflow="hidden"
+        sx={{ textShadow: 'white 0 0 2px' }}
       >
         <Typography mt="3rem" variant="h1" color="primary">
           HAO PHAN
