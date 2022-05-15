@@ -38,7 +38,7 @@ export default function Footer() {
             />
           </Link>
           <Link
-            href="https://github.com/nguyenhaophan/e-library"
+            href="https://github.com/nguyenhaophan/"
             target="_blank"
             rel="noreferrer"
             aria-label="Github"
