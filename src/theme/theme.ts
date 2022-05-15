@@ -18,10 +18,10 @@ const theme = createTheme({
     // h5: {
     //   fontSize: '1.75rem',
     // },
-    // h6: {
-    //   fontSize: '1rem',
-    //   fontWeight: 400,
-    // },
+    h6: {
+      fontSize: '1.1rem',
+      fontWeight: 500,
+    },
   },
 })
 
