@@ -38,7 +38,7 @@ export default function Intro() {
           <Typography paragraph={true} sx={{ textAlign: 'justify' }}>
             {'Hi! I am a full stack web developer proficient in '}
             <Typography component="span" color="secondary">
-              {'MERNstack '}
+              {'MERN Stack '}
             </Typography>
             <Typography component="span">{'with '}</Typography>
             <Typography component="span" color="secondary">
