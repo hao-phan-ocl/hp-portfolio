@@ -13,12 +13,13 @@ export default function Intro() {
         alignItems="center"
         position="relative"
         overflow="hidden"
-        sx={{ textShadow: 'white 0 0 2px' }}
       >
-        <Typography mt="3rem" variant="h1" color="primary">
+        <Typography fontWeight="500" mt="3rem" variant="h1" color="primary">
           HAO PHAN
         </Typography>
-        <Typography variant="h5">FULL-STACK WEB DEVELOPER</Typography>
+        <Typography variant="h5" fontWeight="600">
+          FULL-STACK WEB DEVELOPER
+        </Typography>
         <Box
           sx={{
             display: 'block',
