@@ -1,10 +1,12 @@
 import { Avatar, Box, Container, Stack, Typography } from '@mui/material'
 
 import Pic from '../media/profile.jpg'
+import PartcilesBG from './PartcilesBG'
 
 export default function Intro() {
   return (
     <>
+      <PartcilesBG />
       <Stack
         width="100%"
         pt="8rem"
