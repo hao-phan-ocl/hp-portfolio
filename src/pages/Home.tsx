@@ -2,8 +2,8 @@ import { Stack } from '@mui/material'
 import { useRef } from 'react'
 import Footer from '../components/Footer'
 
-import Intro from '../components/Intro'
 import Nav from '../components/Nav'
+import Intro from '../components/Intro'
 import Projects from '../components/Projects/Projects'
 
 export default function Home() {
