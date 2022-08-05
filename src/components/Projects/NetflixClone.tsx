@@ -11,7 +11,7 @@ import Image5 from '../../media/NetflixClone/video.png'
 export default function NetflixClone() {
   const project = {
     title: 'Netflix Clone',
-    demo: 'https://react-movies-app-867b0.web.app/',
+    demo: 'https://react-movies-app-867b0.firebaseapp.com/',
     github: 'https://github.com/nguyenhaophan/netflix-react-app',
     desc: [
       'A Netflix Clone that is a fully responsive and enables users to create accounts, search movies, watch trailers, and add entities to their watchlists.',
